@@ -24,10 +24,10 @@ spec:
               name: postgres-data
           env:
             - name: POSTGRES_DB
-              value: postgres1
+              value: postgres
             - name: POSTGRES_USER
               value: postgres
-            - name: POSTGRES_PASSWORD
+            - name: POSTGRES_PASSWORD123
               value: postgres
   volumeClaimTemplates:
     - metadata:
